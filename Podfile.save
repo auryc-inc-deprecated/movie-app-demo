@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Movies' do
+  
+ pod 'SDWebImage', '~>3.6'
+ pod 'Auryc', '0.3.1.15'
+ pod "AFNetworking"
+ # pod 'IntrospectionExample', :git => 'https://github.com/auryc-dev-partner/IntrospectionExample.git', :tag => '1.0.0'
+#pod 'IntrospectionExample', :path => '../IntrospectionExample'
+end 
+

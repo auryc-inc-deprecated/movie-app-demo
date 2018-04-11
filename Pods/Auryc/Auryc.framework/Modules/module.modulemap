@@ -1,0 +1,11 @@
+framework module Auryc {
+  umbrella header "Auryc.h"
+
+  export *
+  module * { export * }
+}
+
+module Auryc.Swift {
+    header "Auryc-Swift.h"
+    requires objc
+}
